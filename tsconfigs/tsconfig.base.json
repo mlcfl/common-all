@@ -12,7 +12,11 @@
 		"esModuleInterop": true,
 		"allowSyntheticDefaultImports": true,
 		"paths": {
-			"~/*": ["src/*"]
+			"~/*": ["src/*"],
+			"common/all/*": ["node_modules/common-all/dist/*"],
+			"common/be/*": ["node_modules/common-be/dist/*"],
+			"common/fe/*": ["node_modules/common-fe/dist/*"],
+			"common/*": ["node_modules/common/dist/*"]
 		}
 	}
 }
